@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon index.js",
     "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
-    "webpack": "webpack --watch",
+    "webpack": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Elana Kopelevich",

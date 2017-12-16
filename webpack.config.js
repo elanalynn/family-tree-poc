@@ -28,11 +28,8 @@ module.exports = {
       ],
       inlineManifestWebpackName: 'webpackManifest',
       scripts: [
-        'http://example.com/somescript.js',
-        {
-          src: '/myModule.js',
-          type: 'module'
-        }
+        'https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js',
+        'https://d3js.org/d3-hierarchy.v1.min.js'
       ],
       title: 'Family Tree'
     })
@@ -67,5 +64,6 @@ module.exports = {
   stats: {
     colors: true
   },
-  devtool: 'source-map'
+  devtool: 'source-map',
+  watch: true
 };
