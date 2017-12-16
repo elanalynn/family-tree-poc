@@ -1,3 +1,23 @@
 body {
-  background: cadetblue;
+  text-align: center;
+}
+
+svg {
+  margin: auto;
+}
+
+.person rect {
+  fill: #fff;
+  stroke: #222;
+  stroke-width: 1px;
+}
+
+.person {
+  font-family: sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: .5em;
 }

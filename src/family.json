@@ -1,33 +1,74 @@
 {
-  "name": "Eve",
-  "children": [
+  "name": "Elana Lynn Kopelevich",
+  "id": "10001",
+  "_parents": [
     {
-      "name": "Cain"
-    },
-    {
-      "name": "Seth",
-      "children": [
+      "name": "Solomon Kopelevich",
+      "id": "10002",
+      "_parents": [
         {
-          "name": "Enos"
+          "name": "Isak Kopelevich",
+          "id": "10004",
+          "_parents": [
+            {
+              "name": "Sholem Kopelovich",
+              "id": "10005"
+            },
+            {
+              "name": "Marjasha Kopelovich",
+              "id": "10006"
+            }
+          ]
         },
         {
-          "name": "Noam"
+          "name": "Pesya Kopelevich",
+          "id": "10008",
+          "_parents": [
+            {
+              "name": "Honne Nahimovich",
+              "id": "10009"
+            },
+            {
+              "name": "Yevgenia Nahimovich",
+              "id": "10010"
+            }
+          ]
         }
       ]
     },
     {
-      "name": "Abel"
-    },
-    {
-      "name": "Awan",
-      "children": [
+      "name": "Irina Kopelevich",
+      "id": "10003",
+      "_parents": [
         {
-          "name": "Enoch"
+          "name": "Lev Feigin",
+          "id": "10011",
+          "_parents": [
+            {
+              "name": "...",
+              "id": "10012"
+            },
+            {
+              "name": "...",
+              "id": "10013"
+            }
+          ]
+        },
+        {
+          "name": "Lia Feigina",
+          "id": "10014",
+          "_parents": [
+            {
+              "name": "Baruch (Boris) Gordin",
+              "id": "10015"
+            },
+            {
+              "name": "Faitsa Gordin",
+              "id": "10016"
+            }
+          ]
         }
       ]
-    },
-    {
-      "name": "Azura"
     }
   ]
 }
