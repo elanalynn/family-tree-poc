@@ -6,25 +6,29 @@ console.log(data);
 const boxWidth = 180;
 const boxHeight = 50;
 
-var zoom = d3.behavior
+var zoom = d3
+  .behavior
   .zoom()
   .scaleExtent([.1,1])
   .on('zoom', () => {
     svg.attr('transform', `translate(${d3.event.translate}) scale(${d3.event.scale})`);
   })
-  .translate([150, 200]);
+  .translate([200, 400]);
 
-const svg = d3.select('body').append('svg')
+const svg = d3
+  .select('body')
+  .append('svg')
   .attr('width', 1400)
   .attr('height', 1000)
   .call(zoom)
   .append('g')
-  .attr('transform', 'translate(150,300)');
+  .attr('transform', 'translate(200, 400)');
 
-const tree = d3.layout
+const tree = d3
+  .layout
   .tree()
   .nodeSize([100, 200])
-  .separation(() => .5)
+  .separation(() => .8)
   .children(p => p._parents);
 
 const nodes = tree.nodes(data);
@@ -53,8 +57,8 @@ node.append('rect')
   });
 
 node.append('text')
-  .attr('dx', -(boxWidth/2) + 10)
-  .attr('dy', 0)
+  .attr('dx', -boxWidth/2 + 5)
+  .attr('dy', 5)
   .attr('text-anchor', 'start')
   .attr('class', 'name')
   .text((d) =>  d.name);
